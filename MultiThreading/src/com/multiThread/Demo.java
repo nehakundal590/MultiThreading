@@ -16,7 +16,7 @@ public class Demo {
 	
 
 }
-class MyThread implements Runnable{
+class MyThread1 implements Runnable{
 	public void run() {
 		for(int i=0;i<=10;i++) {
 			System.out.println(i);
@@ -33,7 +33,7 @@ class MyThread implements Runnable{
 }
 public class Demo{
 	public static void main(String[] args) {
-		MyThread mt1=new MyThread();
+		MyThread1 mt1=new MyThread1();
 		Thread mt2=new Thread(mt1);
 		mt2.setName("thread1");
 		mt2.start();
