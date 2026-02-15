@@ -1,5 +1,5 @@
 package MultiThreadCases;
-// Performing Single Task from Single Thread
+// Performing Single Task from Single Thread----------
 /*class test extends Thread{
 	public void run() {
 		System.out.println("hii");
@@ -15,8 +15,8 @@ public class ThreadCase {
 
 }*/
 
-//Performing Single Task from Multiple Thread
-class test extends Thread{
+//Performing Single Task from Multiple Thread-----------------
+/*class test extends Thread{
 	public void run() {
 		System.out.println("hii");
 	}
@@ -29,8 +29,7 @@ public class ThreadCase {
 		test t2=new test();
 		t2.start();
 	}
-	
+	}*/
 
-}
 
 
