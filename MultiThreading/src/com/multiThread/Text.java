@@ -2,7 +2,7 @@ package com.multiThread;
 class mv implements Runnable {
 
     public void run() {
-        try {
+       try {
             System.out.println(Thread.currentThread().getName() + " has started writing the exam.");
             
             Thread.sleep(5000);

@@ -1,5 +1,5 @@
-
-/*ass Deadlock1 {
+package com.multiThread;
+class Deadlock4 {
 
     static Object lockA = new Object();
     static Object lockB = new Object();
@@ -27,18 +27,4 @@
         t1.start();
         t2.start();
     }
-}System.out.println("child thread:"+Thread.currentThread().isDaemon());
-		
-	}
 }
-public class DaemonThread {
-	public static void main(String[] args) {
-		ame t1=new ame();
-		t1.setDaemon(true);
-		t1.start();
-		System.out.println("main thread:"+Thread.currentThread().isDaemon());
-
-	}
-
-}
-*/
